@@ -280,6 +280,7 @@ Main = (function()
 		end})
 		
 		-- file
+		env.isfile = isfile
 		env.readfile = readfile
 		env.writefile = writefile
 		env.appendfile = appendfile
@@ -287,6 +288,7 @@ Main = (function()
 		env.listfiles = listfiles
 		env.loadfile = loadfile
 		env.saveinstance = saveinstance
+		env.getcustomasset = getcustomasset
 		
 		-- debug
 		env.getupvalues = debug.getupvalues or getupvals
